@@ -1,3 +1,4 @@
+/* 
 function faq1_function(){
     var div1=document.getElementById("faq1");
     if (div1.style.display=="none"){
@@ -27,3 +28,4 @@ function faq3_function(){
         div3.style.display="none";
     }
 }
+*/

@@ -29,7 +29,7 @@
     text-decoration: none;
 }
 .list:hover{
-    text-decoration:none;
+    text-decoration:none; 
     color:rgb(59, 160, 243);
 }
 #email_btn{

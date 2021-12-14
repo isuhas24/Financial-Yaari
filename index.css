@@ -186,34 +186,72 @@
 #section-3{
     overflow: hidden;
     margin-top: 5em;
-    margin-left: 50px;
-    margin-right: 50px;
     padding-top: 1em;
-    /*border-top: 1px solid rgba(0, 0, 0, 0.2);*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5em;
+    /*border: 1px solid black;*/
     text-align: center;
+
 }
-.blog-row #blog-column1,
-.blog-row #blog-column2,
-.blog-row #blog-column3,
-.blog-row #blog-column4{
-        /*border: black solid 2px;*/
+.news-row #news-column1,
+.news-row #news-column2,
+.news-row #news-column3,
+.news-row #news-column4{
         float: left;
-        width: 330px;
-        height: 500px;
-        padding: 30px 20px 30px 20px;
-        margin-left: 5px;
-        margin-right: 5px;
+        padding: 80px 40px 80px 40px;
+        margin-left: 120px;
+        color: black;
+}
+.news-row #news-column1
+{
+    width: 350px;
+    height: 500px;
+    margin-top: 50px;
+}
+.news-row #news-column2
+{
+   width: 400px;
+   height: 600px; 
+}
+.news-row #news-column3
+{
+    width: 350px;
+    height: 500px;
+    margin-top: 50px;
+}
+.news-row #news-column4
+{
+    width: 400px;
+    height: 600px;
+}
+.news-row #news-column1,
+.news-row #news-column2,
+.news-row #news-column3
+{
+    border: 1px solid rgb(192,192,192);
+    background-color: rgb(240,240,240);
+}
+.news-column-title h2{
+    margin: 1em 0em;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+.news-title
+{
+    text-decoration: none;
+    color: black;
 }
 .button {
+  background-color: #4CAF50; /* Green */
   border: none;
   color: white;
-  padding: 16px 32px;
+  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
-  transition-duration: 0.4s;
   cursor: pointer;
 }
 .button2 {
